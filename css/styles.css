@@ -7,6 +7,16 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
 .list {
   list-style: none;
 }
@@ -67,6 +77,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
+  margin-right: 76px;
 }
 .logo-footer {
   margin-bottom: 16px;
@@ -156,6 +167,10 @@ nav .menu-item:not(:last-child) {
 }
 /*ORDER BUTTON*/
 .btn-hero {
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
