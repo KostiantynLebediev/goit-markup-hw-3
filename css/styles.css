@@ -212,10 +212,10 @@ img {
   | features section
   |============================
 */
-.features {
+.about {
   padding: 120px 0;
 }
-.features-head {
+.about-head {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -225,21 +225,21 @@ img {
 
   color: var(--dark-color);
 }
-.features-paragraf {
+.about-paragraf {
   letter-spacing: 0.02em;
 }
 
-.features-description {
+.about-description {
   display: flex;
   gap: 24px;
 }
-.features-list {
+.about-list {
   flex-basis: calc((100% - 72px) / 4);
 }
-.features-list:nth-last-child() {
+.about-list:nth-last-child() {
   margin-right: 0;
 }
-.features-list {
+.about-list {
   width: calc((100% - 72px) / 4);
 }
 /**
